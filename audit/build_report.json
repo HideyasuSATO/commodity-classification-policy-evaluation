@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-25",
+  "build_exit_code": 0,
+  "direct_audit_exit_code": 0,
+  "all_research_modules_built": true,
+  "exact_types_and_axioms_match": true,
+  "research_modules": 423,
+  "declarations": 2634,
+  "research_artifacts_reused": false,
+  "dependency_cache_reused": true,
+  "dependency_method": "Local path overrides at the manifest-pinned commits; tracked dependency files clean.",
+  "dependencies": [
+    {
+      "name": "mathlib",
+      "rev": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "plausible",
+      "rev": "dfa4f38190d07c37e315953e08b90fe2d95b3c24",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "rev": "d6b4c7be5be75ec4917c873ac50c756dc1436372",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "importGraph",
+      "rev": "a41f0e9a4dea23188ea9cc1c41ac9f8bbafe0b93",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "rev": "df72b022e558978a1c50264cfc4d7fec86fa8e04",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "aesop",
+      "rev": "4a174c490d8707121c4a9290800489f105d85e07",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "Qq",
+      "rev": "dce0ad79c486cb1fb504af04f953c3466b0c6db8",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "batteries",
+      "rev": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "Cli",
+      "rev": "c24fe6078c630e89b489bffe59b3e20ac30d12c8",
+      "tracked_files_clean": true
+    }
+  ],
+  "public_build_command": "lake build LeanMath LeanMath.CommodityClassification.CheckAllManuscript",
+  "audit_command": "lake env lean LeanMath/CommodityClassification/CheckAllManuscript.lean",
+  "log_sha256": {
+    "lean_build.log": "88d65855f8d45bd2bd0da6b22dd60c79b9e375adb31aac0bc95933590d65949e",
+    "lean_direct.log": "33fe5954641988236b38fafd835f57747455b1c0a1a4ace5bd30750888f8e1b2"
+  },
+  "warnings": [
+    "warning: LeanMath/CommodityClassification/NestNonnegativeIndex.lean:22:6: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+  ]
+}

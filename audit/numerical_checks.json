@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-25",
+  "status": "passed",
+  "python_version": "3.12.14",
+  "sympy_version": "1.14.0",
+  "mpmath_version": "1.3.0",
+  "suites": [
+    {
+      "file": "presubmission_mathematical_audit_20261022.json",
+      "recorded_checks": 38
+    },
+    {
+      "file": "demand_aggregation_policy_classification_audit_20261022.json",
+      "recorded_checks": 95
+    },
+    {
+      "file": "integrated_classification_frontier_audit_20261022.json",
+      "recorded_checks": 152
+    }
+  ],
+  "recorded_checks": 285,
+  "reference_results_match": true,
+  "calculation_code_unchanged": true,
+  "comparison_excludes": [
+    "manuscript_sha256 (version metadata)",
+    "note (description)"
+  ]
+}
