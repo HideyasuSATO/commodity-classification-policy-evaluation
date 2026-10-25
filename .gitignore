@@ -1,0 +1,13 @@
+.lake/
+*.olean
+*.ilean
+*.trace
+*.hash
+__pycache__/
+*.pyc
+.venv/
+venv/
+numerical/notes/
+lean-audit.log
+.DS_Store
+Thumbs.db
