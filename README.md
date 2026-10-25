@@ -52,6 +52,8 @@ For a searchable index, download the repository and open `docs/index.html` in a 
 
 ## Citation, funding, and license
 
+**Archived release v0.1.0:** [DOI: 10.5281/zenodo.23637155](https://doi.org/10.5281/zenodo.23637155).
+
 Author and software citation metadata are in [CITATION.cff](CITATION.cff). The associated paper is *Commodity Classification for Policy Evaluation in General Equilibrium* (2026).
 
 Supported by JSPS KAKENHI Grant Number **JP23K25496**.
