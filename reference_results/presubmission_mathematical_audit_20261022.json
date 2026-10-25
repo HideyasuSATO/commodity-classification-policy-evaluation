@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-22",
+  "status": "passed",
+  "purpose": "Targeted symbolic derivatives, equilibrium witnesses, precision coefficient and finite-weight checks",
+  "count": 38,
+  "checks": [
+    {
+      "name": "all_answer_first_cross_derivative",
+      "passed": true
+    },
+    {
+      "name": "all_answer_second_derivative_after_cross_block_zero",
+      "passed": true
+    },
+    {
+      "name": "all_answer_load_derivative",
+      "passed": true
+    },
+    {
+      "name": "fixed_answer_congruence_polynomial",
+      "passed": true
+    },
+    {
+      "name": "fixed_answer_load_congruence",
+      "passed": true
+    },
+    {
+      "name": "fixed_answer_cancellation_K",
+      "passed": true
+    },
+    {
+      "name": "fixed_answer_cancellation_m",
+      "passed": true
+    },
+    {
+      "name": "fixed_answer_cancellation_nonzero_ratio",
+      "passed": true
+    },
+    {
+      "name": "cancellation_demand_positive_definite",
+      "passed": true
+    },
+    {
+      "name": "other_answer_not_constant_first_derivative_load",
+      "passed": true
+    },
+    {
+      "name": "physical_factor_clearing_10",
+      "passed": true
+    },
+    {
+      "name": "envelope_11",
+      "passed": true
+    },
+    {
+      "name": "positive_input_12",
+      "passed": true
+    },
+    {
+      "name": "physical_factor_clearing_13",
+      "passed": true
+    },
+    {
+      "name": "envelope_14",
+      "passed": true
+    },
+    {
+      "name": "positive_input_15",
+      "passed": true
+    },
+    {
+      "name": "resource_same_parent",
+      "passed": true
+    },
+    {
+      "name": "resource_same_welfare",
+      "passed": true
+    },
+    {
+      "name": "resource_different_group_output",
+      "passed": true
+    },
+    {
+      "name": "resource_column_difference",
+      "passed": true
+    },
+    {
+      "name": "physical_factor_clearing_20",
+      "passed": true
+    },
+    {
+      "name": "envelope_21",
+      "passed": true
+    },
+    {
+      "name": "positive_input_22",
+      "passed": true
+    },
+    {
+      "name": "physical_factor_clearing_23",
+      "passed": true
+    },
+    {
+      "name": "envelope_24",
+      "passed": true
+    },
+    {
+      "name": "positive_input_25",
+      "passed": true
+    },
+    {
+      "name": "untaxed_same_group_report",
+      "passed": true
+    },
+    {
+      "name": "untaxed_same_endowment",
+      "passed": true
+    },
+    {
+      "name": "untaxed_welfare_difference",
+      "passed": true
+    },
+    {
+      "name": "precision_maximization_identity",
+      "passed": true
+    },
+    {
+      "name": "precision_G_coefficient",
+      "passed": true
+    },
+    {
+      "name": "finite_32_all_four_groups_lower",
+      "passed": true
+    },
+    {
+      "name": "finite_lower_exceeds_tolerance",
+      "passed": true
+    },
+    {
+      "name": "positive_witness_Q_bound",
+      "passed": true
+    },
+    {
+      "name": "positive_witness_exceeds_tolerance",
+      "passed": true
+    },
+    {
+      "name": "positive_witness_share_floor",
+      "passed": true
+    },
+    {
+      "name": "concentrated_sales_upper",
+      "passed": true
+    },
+    {
+      "name": "concentrated_upper_below_tolerance",
+      "passed": true
+    }
+  ],
+  "manuscript_sha256": "6f1b4bba92e8e39e84abf69e169a56e7fec950542095334eb5fb8a1c56233210",
+  "coverage": "Symbolic derivatives, equilibrium witnesses, precision coefficients, and finite-weight checks."
+}
