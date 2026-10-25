@@ -1,0 +1,68 @@
+module
+import LeanMath.CommodityClassification.CheckResourcePrimitives
+import LeanMath.CommodityClassification.ResourceCancellationEconomy
+
+set_option pp.universes false
+
+#check @CommodityClassification.ResourceCancellation.balanced_parameterization
+#print axioms CommodityClassification.ResourceCancellation.balanced_parameterization
+
+#check @CommodityClassification.ResourceCancellation.all_candidates_parameterized
+#print axioms CommodityClassification.ResourceCancellation.all_candidates_parameterized
+
+#check @CommodityClassification.ResourceCancellation.all_candidate_m
+#print axioms CommodityClassification.ResourceCancellation.all_candidate_m
+
+#check @CommodityClassification.ResourceCancellation.all_candidate_K
+#print axioms CommodityClassification.ResourceCancellation.all_candidate_K
+
+#check @CommodityClassification.ResourceCancellation.fine_preserves_moments
+#print axioms CommodityClassification.ResourceCancellation.fine_preserves_moments
+
+#check @CommodityClassification.ResourceCancellation.fine_identifies_welfare
+#print axioms CommodityClassification.ResourceCancellation.fine_identifies_welfare
+
+#check @CommodityClassification.ResourceCancellation.scalar_inverse
+#print axioms CommodityClassification.ResourceCancellation.scalar_inverse
+
+#check @CommodityClassification.ResourceCancellation.coefficient_formula
+#print axioms CommodityClassification.ResourceCancellation.coefficient_formula
+
+#check @CommodityClassification.ResourceCancellation.parent_not_identified
+#print axioms CommodityClassification.ResourceCancellation.parent_not_identified
+
+#check @CommodityClassification.ResourceCancellation.all_candidate_responseY
+#print axioms CommodityClassification.ResourceCancellation.all_candidate_responseY
+
+#check @CommodityClassification.ResourceCancellation.all_candidate_group_response
+#print axioms CommodityClassification.ResourceCancellation.all_candidate_group_response
+
+#check @CommodityClassification.ResourceCancellation.response_formula_difference
+#print axioms CommodityClassification.ResourceCancellation.response_formula_difference
+
+#check @CommodityClassification.ResourceCancellation.response_formula_derivative
+#print axioms CommodityClassification.ResourceCancellation.response_formula_derivative
+
+#check @CommodityClassification.ResourceCancellation.response_formula_ne
+#print axioms CommodityClassification.ResourceCancellation.response_formula_ne
+
+#check @CommodityClassification.ResourceCancellation.group_quantity_counterexample
+#print axioms CommodityClassification.ResourceCancellation.group_quantity_counterexample
+
+#check @CommodityClassification.ResourceCancellation.fine_does_not_identify_quantities
+#print axioms CommodityClassification.ResourceCancellation.fine_does_not_identify_quantities
+
+#check @CommodityClassification.ResourceCancellation.actual_welfare_coefficient
+#print axioms CommodityClassification.ResourceCancellation.actual_welfare_coefficient
+
+#check @CommodityClassification.ResourceCancellation.competitive_response
+#print axioms CommodityClassification.ResourceCancellation.competitive_response
+
+#check @CommodityClassification.ResourceCancellation.example_classification_conclusions
+#print axioms CommodityClassification.ResourceCancellation.example_classification_conclusions
+
+#check @CommodityClassification.ResourceCancellation.equilibrium_counterexample
+#print axioms CommodityClassification.ResourceCancellation.equilibrium_counterexample
+
+#check @CommodityClassification.ResourceCancellation.responseFormula
+#print axioms CommodityClassification.ResourceCancellation.responseFormula

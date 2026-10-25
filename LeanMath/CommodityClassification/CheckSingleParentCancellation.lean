@@ -1,0 +1,30 @@
+module
+import LeanMath.CommodityClassification.CheckObservableParentTest
+import LeanMath.CommodityClassification.SingleParentCancellation
+
+set_option pp.universes false
+
+#check @CommodityClassification.InputCoordinates.Partition.single_parent_Q_mulVec
+#print axioms CommodityClassification.InputCoordinates.Partition.single_parent_Q_mulVec
+
+#check @CommodityClassification.InputCoordinates.single_row_transpose_mulVec
+#print axioms CommodityClassification.InputCoordinates.single_row_transpose_mulVec
+
+#check @CommodityClassification.InputCoordinates.mem_single_parent_cancellation
+#print axioms CommodityClassification.InputCoordinates.mem_single_parent_cancellation
+
+#check @CommodityClassification.InputCoordinates.single_parent_cancellation_nonzero
+#print axioms CommodityClassification.InputCoordinates.single_parent_cancellation_nonzero
+
+#check @CommodityClassification.InputCoordinates.single_parent_cancellation_zero
+#print axioms CommodityClassification.InputCoordinates.single_parent_cancellation_zero
+
+#check @CommodityClassification.InputCoordinates.single_parent_cancellation_zero_relative
+#print axioms CommodityClassification.InputCoordinates.single_parent_cancellation_zero_relative
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.single_parent_attributes_nonzero
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.single_parent_attributes_nonzero
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.single_parent_attributes_zero
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.single_parent_attributes_zero
+

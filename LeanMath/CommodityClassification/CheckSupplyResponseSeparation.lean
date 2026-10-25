@@ -1,0 +1,69 @@
+module
+import LeanMath.CommodityClassification.CheckGenericPairHyperplanes
+import LeanMath.CommodityClassification.SupplyResponseSeparation
+
+set_option pp.universes false
+
+#check @CommodityClassification.InputCoordinates.Partition.transpose_lift_xi
+#print axioms CommodityClassification.InputCoordinates.Partition.transpose_lift_xi
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.parentMean_eq_lift_report
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.parentMean_eq_lift_report
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.parentMean_hidden_orthogonal
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.parentMean_hidden_orthogonal
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.parentPerturbation_report
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.parentPerturbation_report
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.parentPerturbation_candidates
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.parentPerturbation_candidates
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.parentPerturbation_weighted_exposure
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.parentPerturbation_weighted_exposure
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.parentPerturbation_weighted_exposure_ne
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.parentPerturbation_weighted_exposure_ne
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.exists_nonzero_hidden
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.exists_nonzero_hidden
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.exists_nonzero_relative
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.exists_nonzero_relative
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.supplyT_posDef
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.supplyT_posDef
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.supplyT_actual
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.supplyT_actual
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.supplyResponse_symmetric
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.supplyResponse_symmetric
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.supplyResponse_quadratic
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.supplyResponse_quadratic
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.supplyResponse_mean_zero
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.supplyResponse_mean_zero
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.supplyResponse_perturbation_positive
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.supplyResponse_perturbation_positive
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.supplyResponse_difference_nonzero
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.supplyResponse_difference_nonzero
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.arbitrarily_close_supply_separation
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.arbitrarily_close_supply_separation
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.same_parent_distinct_supply_responses
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.same_parent_distinct_supply_responses
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.same_parent_supply_separation_equilibria
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.same_parent_supply_separation_equilibria
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.parentPerturbation
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.parentPerturbation
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.supplyT
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.supplyT
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.supplyResponse
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.supplyResponse
