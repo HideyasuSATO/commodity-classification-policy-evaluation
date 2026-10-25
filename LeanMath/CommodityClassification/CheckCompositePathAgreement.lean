@@ -1,0 +1,33 @@
+module
+import LeanMath.CommodityClassification.CheckCompositeEquilibriumModel
+import LeanMath.CommodityClassification.CompositePathAgreement
+
+set_option pp.universes false
+
+#check @CommodityClassification.Equilibrium.Model.positive_path_solution
+#print axioms CommodityClassification.Equilibrium.Model.positive_path_solution
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.composite_index_price_response
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.composite_index_price_response
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.composite_index_path_derivative
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.composite_index_path_derivative
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.composite_competitive_path
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.composite_competitive_path
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.matched_actual_implementation
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.matched_actual_implementation
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.local_composite_path_agreement
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.local_composite_path_agreement
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.composite_outer_utility_calibration
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.composite_outer_utility_calibration
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.matchedModel
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.matchedModel
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.matchedUtility
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.matchedUtility
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.CompositePathAgreement
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.CompositePathAgreement

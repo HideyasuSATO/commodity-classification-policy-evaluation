@@ -1,0 +1,79 @@
+module
+import LeanMath.CommodityClassification.CheckSmallDemandSeparation
+import LeanMath.CommodityClassification.ParentPolynomialNonidentity
+
+set_option pp.universes false
+
+#check @CommodityClassification.Genericity.symmetricFill_transpose
+#print axioms CommodityClassification.Genericity.symmetricFill_transpose
+
+#check @CommodityClassification.Genericity.symmetricCoordinates_continuous
+#print axioms CommodityClassification.Genericity.symmetricCoordinates_continuous
+
+#check @CommodityClassification.Genericity.symmetricCoordinates_inverse_continuous
+#print axioms CommodityClassification.Genericity.symmetricCoordinates_inverse_continuous
+
+#check @CommodityClassification.Genericity.symbolicDemand_evaluated
+#print axioms CommodityClassification.Genericity.symbolicDemand_evaluated
+
+#check @CommodityClassification.Genericity.symmetric_polynomial_continuous
+#print axioms CommodityClassification.Genericity.symmetric_polynomial_continuous
+
+#check @CommodityClassification.Genericity.symmetric_polynomial_zero_closed
+#print axioms CommodityClassification.Genericity.symmetric_polynomial_zero_closed
+
+#check @CommodityClassification.Genericity.polynomialConstantMatrix_eval
+#print axioms CommodityClassification.Genericity.polynomialConstantMatrix_eval
+
+#check @CommodityClassification.Genericity.ringHom_comp_mulVec
+#print axioms CommodityClassification.Genericity.ringHom_comp_mulVec
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.gainKPolynomial_eval
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.gainKPolynomial_eval
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.gainLoadPolynomial_eval
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.gainLoadPolynomial_eval
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.gainNumeratorPolynomial_eval
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.gainNumeratorPolynomial_eval
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.gainDeterminantPolynomial_eval
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.gainDeterminantPolynomial_eval
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.demandGain_adjugate
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.demandGain_adjugate
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.gainDifferencePolynomial_eval
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.gainDifferencePolynomial_eval
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.demandK_posDef
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.demandK_posDef
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.gainDifferencePolynomial_zero_iff
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.gainDifferencePolynomial_zero_iff
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.parentIdentification_polynomial_zero
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.parentIdentification_polynomial_zero
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.gainDifferencePolynomial_nonzero_of_witness
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.gainDifferencePolynomial_nonzero_of_witness
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.exists_nonzero_parent_polynomial
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.exists_nonzero_parent_polynomial
+
+#check @CommodityClassification.Genericity.symmetricFill
+#print axioms CommodityClassification.Genericity.symmetricFill
+#check @CommodityClassification.Genericity.symmetricCoordinates
+#print axioms CommodityClassification.Genericity.symmetricCoordinates
+#check @CommodityClassification.Genericity.symbolicDemand
+#print axioms CommodityClassification.Genericity.symbolicDemand
+#check @CommodityClassification.Genericity.polynomialConstantMatrix
+#print axioms CommodityClassification.Genericity.polynomialConstantMatrix
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.gainKPolynomial
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.gainKPolynomial
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.gainLoadPolynomial
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.gainLoadPolynomial
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.gainNumeratorPolynomial
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.gainNumeratorPolynomial
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.gainDifferencePolynomial
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.gainDifferencePolynomial

@@ -1,0 +1,41 @@
+module
+import LeanMath.CommodityClassification.CheckPredictionRiskSupremum
+import LeanMath.CommodityClassification.AllAnswerMeanPreservation
+
+set_option pp.universes false
+
+#check @CommodityClassification.InputCoordinates.Partition.inverseXi_gram_formula
+#print axioms CommodityClassification.InputCoordinates.Partition.inverseXi_gram_formula
+
+#check @CommodityClassification.InputCoordinates.Partition.inverseXi_gram_posDef
+#print axioms CommodityClassification.InputCoordinates.Partition.inverseXi_gram_posDef
+
+#check @CommodityClassification.InputCoordinates.Partition.inverseXi_gram_inverse
+#print axioms CommodityClassification.InputCoordinates.Partition.inverseXi_gram_inverse
+
+#check @CommodityClassification.InputCoordinates.Partition.inverseXiReportLift_eq
+#print axioms CommodityClassification.InputCoordinates.Partition.inverseXiReportLift_eq
+
+#check @CommodityClassification.InputCoordinates.Partition.mean_inverseXi_formula
+#print axioms CommodityClassification.InputCoordinates.Partition.mean_inverseXi_formula
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.reportIdentified_iff_candidate_pairs
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.reportIdentified_iff_candidate_pairs
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.reportingMean_same_report
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.reportingMean_same_report
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.reportIdentified_iff_mean_preservation
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.reportIdentified_iff_mean_preservation
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.inverseXi_mean_candidate
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.inverseXi_mean_candidate
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.reportIdentified_iff_inverseXi_preservation
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.reportIdentified_iff_inverseXi_preservation
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.reportIdentified_iff_actual_mean_coefficient
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.reportIdentified_iff_actual_mean_coefficient
+
+#check @CommodityClassification.InputCoordinates.Partition.inverseXiReportLift
+#print axioms CommodityClassification.InputCoordinates.Partition.inverseXiReportLift

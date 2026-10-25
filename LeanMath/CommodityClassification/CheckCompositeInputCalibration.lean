@@ -1,0 +1,62 @@
+module
+import LeanMath.CommodityClassification.CheckUntaxedLiteralIndices
+import LeanMath.CommodityClassification.CompositeInputCalibration
+
+set_option pp.universes false
+
+#check @CommodityClassification.InputCoordinates.Partition.normalizedReport_apply
+#print axioms CommodityClassification.InputCoordinates.Partition.normalizedReport_apply
+
+#check @CommodityClassification.InputCoordinates.Partition.normalizedReport_positive
+#print axioms CommodityClassification.InputCoordinates.Partition.normalizedReport_positive
+
+#check @CommodityClassification.InputCoordinates.Partition.normalizedReport_cost
+#print axioms CommodityClassification.InputCoordinates.Partition.normalizedReport_cost
+
+#check @CommodityClassification.InputCoordinates.Partition.normalizedReport_mul
+#print axioms CommodityClassification.InputCoordinates.Partition.normalizedReport_mul
+
+#check @CommodityClassification.InputCoordinates.Partition.normalizedReport_reconstruct
+#print axioms CommodityClassification.InputCoordinates.Partition.normalizedReport_reconstruct
+
+#check @CommodityClassification.InputCoordinates.Partition.normalizedReport_totalInputs
+#print axioms CommodityClassification.InputCoordinates.Partition.normalizedReport_totalInputs
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.compositeInputs_positive
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.compositeInputs_positive
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.compositeInputs_cost
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.compositeInputs_cost
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.compositeInputs_exposure
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.compositeInputs_exposure
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.compositeCoordinates_reconstruct
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.compositeCoordinates_reconstruct
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.compositeCoordinates_positive
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.compositeCoordinates_positive
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.compositeInputs_total
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.compositeInputs_total
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.composite_R_preserved
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.composite_R_preserved
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.compositeCostData_meanInputs
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.compositeCostData_meanInputs
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.compositeCostData_actual_cost
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.compositeCostData_actual_cost
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.compositeCostData_actual_minimum
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.compositeCostData_actual_minimum
+
+#check @CommodityClassification.InputCoordinates.Partition.normalizedReport
+#print axioms CommodityClassification.InputCoordinates.Partition.normalizedReport
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.compositeInputs
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.compositeInputs
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.compositeCoordinates
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.compositeCoordinates
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.compositeCostData
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.compositeCostData

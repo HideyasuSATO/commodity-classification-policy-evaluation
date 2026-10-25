@@ -1,0 +1,31 @@
+module
+import LeanMath.CommodityClassification.CheckPolynomialNullity
+import LeanMath.CommodityClassification.GenericSingletonClassification
+
+set_option pp.universes false
+
+#check @CommodityClassification.Genericity.symmetric_posDef_iff_sphere
+#print axioms CommodityClassification.Genericity.symmetric_posDef_iff_sphere
+
+#check @CommodityClassification.Genericity.joint_demand_quadratic_continuous
+#print axioms CommodityClassification.Genericity.joint_demand_quadratic_continuous
+
+#check @CommodityClassification.Genericity.positiveDemandCone_isOpen
+#print axioms CommodityClassification.Genericity.positiveDemandCone_isOpen
+
+#check @CommodityClassification.Genericity.dense_relative_positive_domain
+#print axioms CommodityClassification.Genericity.dense_relative_positive_domain
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.singleton_exception_closed_null
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.singleton_exception_closed_null
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.generic_singleton_open_dense_full_measure
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.generic_singleton_open_dense_full_measure
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.generic_singleton_ae
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.generic_singleton_ae
+
+#check @CommodityClassification.Genericity.positiveDemandCone
+#print axioms CommodityClassification.Genericity.positiveDemandCone
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.SingletonClassificationAt
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.SingletonClassificationAt

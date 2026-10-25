@@ -1,0 +1,26 @@
+module
+import LeanMath.CommodityClassification.CheckPositiveMeanExchange
+import LeanMath.CommodityClassification.NestedDirectWitness
+
+set_option pp.universes false
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.pairMismatchDelta_nonzero
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.pairMismatchDelta_nonzero
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nested_pairExchange_welfare_formula
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nested_pairExchange_welfare_formula
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nested_pairExchange_welfare_nonzero
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nested_pairExchange_welfare_nonzero
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.pairExchange_small_nonzero
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.pairExchange_small_nonzero
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nested_direct_common_benchmark_witness
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nested_direct_common_benchmark_witness
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.candidate_actual_loss_expansion
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.candidate_actual_loss_expansion
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.pairMismatchDelta
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.pairMismatchDelta

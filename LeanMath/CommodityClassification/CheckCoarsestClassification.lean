@@ -1,0 +1,48 @@
+module
+import LeanMath.CommodityClassification.CheckCommodityPairRule
+import LeanMath.CommodityClassification.CoarsestCommodityClassification
+
+set_option pp.universes false
+
+#check @CommodityClassification.InputCoordinates.Partition.refinement_iff
+#print axioms CommodityClassification.InputCoordinates.Partition.refinement_iff
+
+#check @CommodityClassification.InputCoordinates.exists_partition_of_setoid
+#print axioms CommodityClassification.InputCoordinates.exists_partition_of_setoid
+
+#check @CommodityClassification.InputCoordinates.Partition.same_cells_of_mutual_refinement
+#print axioms CommodityClassification.InputCoordinates.Partition.same_cells_of_mutual_refinement
+
+#check @CommodityClassification.InputCoordinates.Partition.relabeling_of_same_cells
+#print axioms CommodityClassification.InputCoordinates.Partition.relabeling_of_same_cells
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.samePolicyAttributes_refl
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.samePolicyAttributes_refl
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.samePolicyAttributes_symm
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.samePolicyAttributes_symm
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.samePolicyAttributes_trans
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.samePolicyAttributes_trans
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.classification_of_policy_classes
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.classification_of_policy_classes
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.exists_coarsest_successful
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.exists_coarsest_successful
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.reportIdentified_of_refinement
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.reportIdentified_of_refinement
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.coarsest_successful_characterization
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.coarsest_successful_characterization
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.coarsest_successful_unique_cells
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.coarsest_successful_unique_cells
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.coarsest_successful_unique_relabeling
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.coarsest_successful_unique_relabeling
+
+#check @CommodityClassification.InputCoordinates.Refinement.trans
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.policySetoid
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.CoarsestSuccessful

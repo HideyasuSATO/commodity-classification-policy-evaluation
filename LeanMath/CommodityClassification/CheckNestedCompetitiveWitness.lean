@@ -1,0 +1,25 @@
+module
+import LeanMath.CommodityClassification.CheckNestedGeneralEquilibrium
+import LeanMath.CommodityClassification.NestedOriginalUtilityWitness
+
+set_option pp.universes false
+
+#check @CommodityClassification.Equilibrium.Model.positive_path_consumer_prices_tendsto
+#print axioms CommodityClassification.Equilibrium.Model.positive_path_consumer_prices_tendsto
+
+#check @CommodityClassification.Equilibrium.Model.positive_path_competitive_of_surplus
+#print axioms CommodityClassification.Equilibrium.Model.positive_path_competitive_of_surplus
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nested_candidate_implementation
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nested_candidate_implementation
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.same_report_witness_nested_transfer
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.same_report_witness_nested_transfer
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nested_direct_original_utility_witness
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nested_direct_original_utility_witness
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.NestedImplementation
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.NestedImplementation
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.NestedSameObservationWitness
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.NestedSameObservationWitness

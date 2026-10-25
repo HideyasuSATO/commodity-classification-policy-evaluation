@@ -1,0 +1,60 @@
+module
+import LeanMath.CommodityClassification.CheckNestedPreferenceImplementation
+import LeanMath.CommodityClassification.NestedCoarsestClassification
+
+set_option pp.universes false
+
+#check @CommodityClassification.DemandNests.Data.priceDerivative_exchange
+#print axioms CommodityClassification.DemandNests.Data.priceDerivative_exchange
+
+#check @CommodityClassification.DemandNests.Data.policy_load_ratio
+#print axioms CommodityClassification.DemandNests.Data.policy_load_ratio
+
+#check @CommodityClassification.DemandNests.Data.within_nest_policy_loads
+#print axioms CommodityClassification.DemandNests.Data.within_nest_policy_loads
+
+#check @CommodityClassification.DemandNests.Data.adjusted_exchange
+#print axioms CommodityClassification.DemandNests.Data.adjusted_exchange
+
+#check @CommodityClassification.InputCoordinates.twoSupport_common_difference_range_iff
+#print axioms CommodityClassification.InputCoordinates.twoSupport_common_difference_range_iff
+
+#check @CommodityClassification.InputCoordinates.twoSupport_common_difference_cancellation_iff
+#print axioms CommodityClassification.InputCoordinates.twoSupport_common_difference_cancellation_iff
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.goods_pos_of_parent_nonidentified
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.goods_pos_of_parent_nonidentified
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nested_samePolicyAttributes_iff
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nested_samePolicyAttributes_iff
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nested_report_identification_iff
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nested_report_identification_iff
+
+#check @CommodityClassification.InputCoordinates.Partition.pair_matching_iff_cells
+#print axioms CommodityClassification.InputCoordinates.Partition.pair_matching_iff_cells
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nested_reporting_cells_iff
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nested_reporting_cells_iff
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nested_coarsest_of_cells
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nested_coarsest_of_cells
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.exists_nested_coarsest
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.exists_nested_coarsest
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nested_coarsest_unique_cells
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nested_coarsest_unique_cells
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nested_coarsest_unique_relabeling
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nested_coarsest_unique_relabeling
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nested_coarsest_characterization
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nested_coarsest_characterization
+
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.nestData
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.nestData
+#check @CommodityClassification.InputCoordinates.Partition.matchingSetoid
+#print axioms CommodityClassification.InputCoordinates.Partition.matchingSetoid
+#check @CommodityClassification.Equilibrium.BenchmarkFamily.CoarsestWithinNests
+#print axioms CommodityClassification.Equilibrium.BenchmarkFamily.CoarsestWithinNests
