@@ -4,11 +4,18 @@
   "date": "2026-10-25",
   "id": "MS-20261025-JET-REVISED",
   "source_filename": "manuscript.tex",
-  "source_sha256": "bd8cf6a6d5d88dd164a81dadd21c42842769a3f7266b6b573088e2b6ff7bd746",
+  "source_sha256": "80676bef70c64249c46dd4506495eae551e41df87c3ecf91952ca672c74d22e2",
   "correspondence": "The source line ranges refer to this manuscript edition.",
-  "pdf_sha256": "ec27bb1ba56f90a82e78d665a1d8786e598fdfbb00d7fbb6a44c2afe4a54c467",
+  "pdf_sha256": "d2d626cdaf9e361cef5729d825548913007a1069360aa861298e03fb6ec12f61",
   "location_source": "Printed labels and page numbers from the compiler auxiliary file of the same PDF edition.",
   "label_aux_sha256": "aa7203a23cfdeaceb1957a723629aca5a43f15a9c86ea4e48464e85efd6d13aa",
-  "revision": "methods-integrated",
-  "page_count": 24
+  "revision": "doi-linked",
+  "page_count": 24,
+  "change": "The version-specific Zenodo DOI is added to the code availability statement. Mathematical content and source line ranges are unchanged.",
+  "archived_release": {
+    "version": "v0.1.0",
+    "doi": "10.5281/zenodo.23637155",
+    "source_sha256": "bd8cf6a6d5d88dd164a81dadd21c42842769a3f7266b6b573088e2b6ff7bd746",
+    "pdf_sha256": "ec27bb1ba56f90a82e78d665a1d8786e598fdfbb00d7fbb6a44c2afe4a54c467"
+  }
 }
